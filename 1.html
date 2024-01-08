@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<div class="box">
+		<div class="item1">
+			<div class="top"></div>
+			<div class="imgs">
+				我是图片
+			</div>
+			<div class="footer">
+				<p>我是iKUN</p>
+			</div>
+		</div>
+		<div class="item1">
+			<div class="top"></div>
+			<div class="imgs">
+				我是图片
+			</div>
+			<div class="footer">
+				<p>我是iKUN</p>
+			</div>
+		</div>
+	</div>
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.box{
+		width: 500px;
+		display: flex;
+		justify-content: space-around;
+		height: 400px;
+		background-color: red;
+	}
+	.item1{
+		width: 49%;
+		position: relative;
+	}
+	.top{
+		width: 100%;
+		height: 300px;
+		background-color: yellow;
+	}
+	.footer{
+		width: 100%;
+		line-height: 100px;
+		background-color: blueviolet;
+		text-align: center;
+	}
+	.imgs{
+		width: 98%;
+		line-height: 70px;
+		background-color: orange;
+		text-align: center;
+		position: absolute;
+		top: 250px;
+		z-index: 999;
+		left: 3px;
+	}
+</style>
+<body>
+
+</body>
+</html>
